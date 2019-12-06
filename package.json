@@ -1,0 +1,28 @@
+{
+  "name": "webcam-express-server",
+  "version": "1.0.0",
+  "description": "Webcam streaming service",
+  "main": "websocket-relay.js",
+  "scripts": {
+    "start": "node server.js password 8081 8082",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint --ignore-path .gitignore . --cache",
+    "lint-fix": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix --cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChrisIngoe/webcam-express-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisIngoe/webcam-express-server/issues"
+  },
+  "homepage": "https://github.com/ChrisIngoe/webcam-express-server#readme",
+  "dependencies": {
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
