@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ChrisIngoe/webcam-express-server#readme",
   "dependencies": {
-    "ws": "^7.2.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "eslint": "^6.7.2"
